@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: linear-gradient(90deg, #0d1b2a 0%, #0b1320 50%, #010b16 100%); 
+    color: #fff;
+    text-align: center;
+}
+
+.footer__logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.footer__text {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer__link {
+    color: #31a8dd; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer__link:hover {
+    color: #fff; 
+}

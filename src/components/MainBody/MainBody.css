@@ -1,0 +1,114 @@
+.main-body {
+    font-family: 'Arial', sans-serif;
+    padding: 2rem;
+    background-color: #000000; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+.main-body__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #31a8dd;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+  
+.main-body__text {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    width: 792px; 
+    text-align: center; 
+    margin: auto; 
+}
+  
+.main-body__module {
+    background-color: #3a3939;
+    margin-bottom: 1.5rem;
+    padding: 20px;
+    border-radius: 40px;
+    border: 2px Inset #31a8dd; 
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.4);
+    width: 535px;
+}
+  
+.main-body__module-text {
+    font-size: 1.1rem;
+    color: #fff;
+}
+  
+.main-body__text-blue {
+    color: #007bff; 
+    font-weight: bold;
+}
+
+.main-body__scroll-section {
+    position: relative;
+    height: 100vh; 
+    width: 100vw;
+    background-image: url('../../assets/woman-code.png'); 
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+    color: #fff; 
+    padding: 2rem;
+    border: 2px solid #31a8dd;
+}
+
+.main-body__title-image {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    text-shadow: 3px 3px 0 #31a8dd;
+    text-align: center;
+    
+}
+
+.main-body__image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #000;
+    border-radius: 20px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: #fff;
+}
+
+.main-body__image-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #31a8dd;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 0 #000; 
+}
+
+.main-body__image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+.main-body__image-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ccc;
+    margin-top: 1rem;
+    max-width: 800px;
+}
